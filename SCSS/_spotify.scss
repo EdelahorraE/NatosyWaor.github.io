@@ -1,0 +1,10 @@
+@import "variables";
+
+#container_spotify {
+  margin-top: 50px;
+  margin-bottom: 340px;
+}
+
+#image_spotify {
+  @include centrar;
+}

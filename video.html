@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/Assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/Assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/Assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/Assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Natos y Waor</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-md bg-dark sticky-top border-bottom"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a href="index.html">
+          <img
+            src="/Assets/WebP/logo-natos-y-waor-blanco-final.webp"
+            class="d-block"
+            alt="Logo de Natos y Waor"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="#offcanvas"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="#offcanvas"
+          aria-labelledby="#offcanvasLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="#aperture"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container text-center" id="video_layout">
+        <div class="row row-cols-lg-2 row-cols-md-1">
+          <div class="col_video">
+            <video width="640" height="340" poster="/Assets/Videos/Gold.webp" class="img-fluid" controls>
+              <source
+                src="/Assets/Videos/Natos y Waor - GOLD DIGGERS ft Al Safir [Barras Bravas Vol. 23].mp4"
+                type="video/mp4"
+              />
+              <track
+                src="/Assets/VTT/Natos y Waor - GOLD DIGGERS ft Al Safir [Barras Bravas Vol. 23].vtt"
+                kind="subtitles"
+                srclang="es"
+                label="Español"
+              />
+            </video>
+          </div>
+          <div class="col">
+            <p>
+              Para esta nueva entrega han contado con otro rapero que está
+              claramente en auge. También desde Madrid, Al Safir se une al dúo,
+              con un estilo parecido y sin estribillo en la canción, cada uno
+              suelta sus barras pertinentes, que es en lo que los tres destacan.
+              Lo hacen sobre una base de Pablo Garatea, productor habitual del
+              grupo y Bombony Montana. Con esta colaboración dan la mano a una
+              nueva generación, un rapero con talento y trabajador. De momento
+              Natos y Waor continúan con su gira internacional y nos
+              mantendremos a la espera de nuevas noticias.
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              Escrito por Natos y Waor y Al Safir Compuesto Natos y Waor, Al
+              Safir, Pablo Gareta, Carlos Oyarzabal y Jack Sheehan Producido por
+              Pablo Gareta y Bombony Montana Mezclado por Pablo Gareta
+              Masterizado por Koar Videoclip por Adrian Groves y Alfonso Guachu
+            </p>
+          </div>
+          <div class="col_video">
+            <video width="640" height="340" poster="/Assets/Videos/Carretera.webp" class="img-fluid" controls>
+              <source
+                src="/Assets/Videos/Natos, Waor, Recycled J - CARRETERA - (Videoclip Oficial) [Hijos de la Ruina Vol.2].mp4"
+                type="video/mp4"
+              />
+              <track
+                src="/Assets/VTT/Natos, Waor, Recycled J - CARRETERA - (Videoclip Oficial) [Hijos de la Ruina Vol.2] [Spanish (auto-generated)] [DownloadYoutubeSubtitles.com].vtt"
+                kind="subtitles"
+                srclang="es"
+                label="Español"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-3">
+            <img
+              src="/Assets/WebP/logo-natos-y-waor-blanco-final.webp"
+              class="d-block"
+              alt="Logo de Natos y Waor"
+            />
+          </div>
+          <div class="col" id="col_madeby">
+            <span class="text-body-secondary"
+              >2014-2021 NATOS Y WAOR © REALIZADA POR Eduardo de la Horra
+              Rodríguez</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+@import "variables";
+
+#video_layout {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col_video {
+  margin-bottom: 8%;
+}
+
+.col{
+    @include centrar;
+}
